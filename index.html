@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeoParpeix Scroll Animation — GraphOps SOC Edition</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Quick Floating Navigation Pill (Yellow & Black Theme) -->
+    <nav class="floating-QuickNav">
+      <a href="#top-scroll-showcase" class="QuickNav-link">🐝 Bee Scroll Showcase</a>
+      <a href="#spotlight-gallery" class="QuickNav-link">🖼 01–06 Visuals</a>
+      <a href="#graphops-workbench" class="QuickNav-cta">⚡ GraphOps SOC Workbench ↓</a>
+    </nav>
+
+    <section class="intro" id="top-scroll-showcase">
+      <h1>Everything here took longer than expected.</h1>
+    </section>
+
+    <section class="spotlight" id="spotlight-gallery">
+      <div class="spotlight-item">
+        <img src="/graphops-1.jpg" alt="Blast Radius Simulator" />
+        <div class="spotlight-item-copy">
+          <p>Blast Radius Simulator (1-to-3 Hop BFS)</p>
+          <p>01</p>
+        </div>
+      </div>
+
+      <div class="spotlight-item">
+        <img src="/graphops-2.jpg" alt="Choke Point Remediation" />
+        <div class="spotlight-item-copy">
+          <p>Choke Point Remediation (Centrality)</p>
+          <p>02</p>
+        </div>
+      </div>
+
+      <div class="spotlight-item">
+        <img src="/graphops-3.jpg" alt="SIEM Alert Collapser" />
+        <div class="spotlight-item-copy">
+          <p>SIEM Alert Collapser (WCC Merge)</p>
+          <p>03</p>
+        </div>
+      </div>
+
+      <div class="spotlight-item">
+        <img src="/graphops-4.jpg" alt="Zero-Trust Drift Engine" />
+        <div class="spotlight-item-copy">
+          <p>Zero-Trust Entitlement Drift (&gt;90d)</p>
+          <p>04</p>
+        </div>
+      </div>
+
+      <div class="spotlight-item">
+        <img src="/graphops-5.jpg" alt="Dijkstra Attack Path Mapping" />
+        <div class="spotlight-item-copy">
+          <p>Dijkstra Least-Cost Attack Paths</p>
+          <p>05</p>
+        </div>
+      </div>
+
+      <div class="spotlight-item">
+        <img src="/graphops-6.jpg" alt="Crown Jewel Containment" />
+        <div class="spotlight-item-copy">
+          <p>DPDP 6-Hour Crown Jewel Containment</p>
+          <p>06</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="outro">
+      <h1>Thanks for scrolling all the way down here.</h1>
+    </section>
+
+    <!-- Interactive Production-Grade GraphOps SOC Workbench -->
+    <div id="graphops-workbench">
+      <div id="graphops-root"></div>
+    </div>
+
+    <div class="lottie-container">
+      <div class="bee-shadow"></div>
+      <div class="bee"></div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
